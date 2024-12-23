@@ -868,11 +868,12 @@ section,
   text-align: left;
   transition: 0.3s;
   border-radius: 5px;
+  transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 .services .service-item .pemisah {
   display: grid;
   grid-template-columns: 110px auto; /* Kolom untuk gambar dan teks */
-  gap: 1px; /* Jarak antara gambar dan teks */
+  gap: 10px; /* Jarak antara gambar dan teks */
   align-items: left; /* Menyelaraskan konten secara vertikal */
 
 }
@@ -915,7 +916,8 @@ section,
 }
 
 .services .service-item:hover {
-  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 35px 0px rgba(115, 180, 255, 0.877);
+  transform: translateY(-10px);
 }
 
 .services .service-item.item-cyan i {
